@@ -3,7 +3,7 @@ import express from 'express';
 const app = express()
 
 app.get("/",(req,res)=>{
-    res.send("My Api is running on ec2 instances😊")
+    res.send("My Api is running on ec2 instances changed😊")
 })
 
 
